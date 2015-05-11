@@ -1,0 +1,30 @@
+@font-face{
+	font-family:'Myriad';
+	src:url("../font/MyriadPro-Regular.otf");
+}
+html,body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+	font-family:'Myriad';
+	
+}
+
+a{text-decoration:none}
+#popup-img{position:relative;width:605px;}
+#popup-img img{border-radius:5px;-moz-border-radius:5px;}
+.deskripsi-food-large{position:absolute;margin:325px  0px 0px -605px; margin:325px  0px 0px -610px\9;padding:0;height:140px;width:605px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;-moz-border-radius-bottomleft:10px;-moz-border-radius-bottomright:10px;background:#FBC573;}
+
+.deskripsi-food-text-large{ padding:30px 30px 30px 19px ;margin:0px;font-size:12px;}
+.title-large{font-size:15px;font-weight:bold;padding-bottom:8px}
+.padd{border-top:1px solid #000;height:10px}
+#box-left{display:table-cell;vertical-align:top;width:447px;font-size:13px;}
+#box-right{display:table-cell;vertical-align:top;width:96px;padding-top:25px}
+.pesan{font-size:15.5px;border-radius:5px;-moz-border-radius:5px;padding:10px 25px 10px 25px;color:#FFF;background:#889F4D}
+.box-row1{float:left;padding-bottom:2px;width:184px}
+.box-row2{float:left;padding-bottom:2px;width:263px;}
+.clear{clear:both}
+.label-changepwd{width:163px;display:table-cell;vertical-align:top;height:33px}
+.input-changepwd{width:200px;border-radius:10px;-moz-border-radius:10px;height:24px;border:1px solid #999999;}
+.col-changepwd{width:203px;display:table-cell;vertical-align:top;}
+.col-submit-changepwd{padding-top:15px;width:320px;text-align:right}

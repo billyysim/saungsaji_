@@ -1,0 +1,13 @@
+			<div id="addrow1">
+				<div class="label-myprofile">Alamat</div>
+				<div class="textarea-myprofile-text"><input type="text" id="1" class="textarea textarea-myprofile"></div>
+				<div class="delete"><img src="<?=$base?>/img/plus.png" style="cursor:pointer" onclick="addaddress()" ></div>
+			</div>
+			<div id="addaddress"><input type="hidden" value="2" id="counteraddress"></div>
+			<div id="wilrow1">
+				<div class="label-myprofile">Wilayah Pengantaran</div>
+				<div class="textarea-myprofile-text"><input type="text" id="1" class="textarea textarea-myprofile"></div>
+				<div class="delete"><img src="<?=$base?>/img/plus.png" style="cursor:pointer" onclick="addaddresswil()" ></div>
+			</div>
+			<div id="addaddresswil"><input type="hidden" value="2" id="counteraddresswil">
+			</div>

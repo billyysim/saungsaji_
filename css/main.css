@@ -1,0 +1,181 @@
+html, body {
+	margin: 0;
+	padding: 0;
+
+
+}
+
+body {
+	text-align: center;
+}
+
+h1 {
+	font-size: 28pt;
+	letter-spacing: 12px;
+	border-bottom: 1px solid #ddd;
+	margin: 10px;
+}
+
+h2.subtitle {
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+#container {
+	margin: 90px auto;
+	width: 700px;
+	color: #555;
+	text-alin:center;
+}
+
+#countdown_dashboard {
+	height: 110px;
+	margin-left:14px;
+}
+
+.dash {
+	width: 110px;
+	height: 114px;
+	background: transparent url('../images/dash.png') 0 0 no-repeat;
+	float: left;
+	margin-left: 20px;
+	position: relative;
+}
+
+.dash .digit {
+	font-size: 55pt;
+	font-weight: bold;
+	float: left;
+	width: 55px;
+	text-align: center;
+	font-family: Times;
+	color: #555;
+	position: relative;
+}
+
+.dash_title {
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	right: 6px;
+	font-size: 9pt;
+	color: #555;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.dev_comment {
+	font-size: 14pt;
+	color: #777;
+	text-align: center;
+	font-style: italic;
+	margin: 40px 10px;
+}
+
+#subscribe_form {
+	position: relative;
+} 
+
+#email_field {
+	font-size: 16pt;
+	padding: 6px 10px;
+	width: 300px;
+}
+
+#subscribe_button {
+	font-size: 14pt;
+	color: #333;
+	padding: 4px 8px;
+}
+
+.copyright {
+	font-size: 9pt;
+	color: #333;
+	margin: 40px 0px;
+}
+
+.faded {
+	color: #999;
+}
+
+.form_message {
+	width: 400px;
+	padding: 10px;
+	margin: 15px auto;
+	display: none;
+}
+
+#error_message {
+	background-color: #ffe;
+	border-left: 5px solid #bb3;
+	border-right: 5px solid #bb3;
+	color: #770;
+}
+
+#info_message {
+	background-color: #f0f9ff;
+	border: 1px solid #eef;
+}
+
+#loading {
+	text-align: center;
+	margin: 10px;
+	display: none;
+	position: absolute;
+	width: 100%;
+	top: 60px;
+}
+
+.input{width:250px;height:40px;border:1px solid #999999;border-radius:5px;-moz-border-radius:5px;text-align:center;font-size:15px;}
+.btn-style-order{
+    border : solid 1px #638a00;
+    border-radius : 5px;
+    moz-border-radius : 5px;
+    -webkit-box-shadow : 0px 2px 2px rgba(0,0,0,0.4);
+    -moz-box-shadow : 0px 2px 2px rgba(0,0,0,0.4);
+    box-shadow : 0px 0px 0px rgba(0,0,0,0.4);
+    font-size : 15px;
+    color : #ffffff;
+	margin : 10px;
+    padding : 12px 20px;
+    background : #96c300;
+    background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#96c300), color-stop(100%,#648c00));
+    background : -moz-linear-gradient(top, #96c300 0%, #648c00 100%);
+    background : -webkit-linear-gradient(top, #96c300 0%, #648c00 100%);
+    background : -o-linear-gradient(top, #96c300 0%, #648c00 100%);
+    background : -ms-linear-gradient(top, #96c300 0%, #648c00 100%);
+    background : linear-gradient(top, #96c300 0%, #648c00 100%);
+    filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#96c300', endColorstr='#648c00',GradientType=0 );
+	cursor: pointer; cursor: hand;
+}
+.word{
+	font-family:Arial,Verdana,Helvetica, sans-serif;
+	font-size:15px;
+	margin:50px 10px 10px 0px;
+}
+.word_{
+	font-family:Arial,Verdana,Helvetica, sans-serif;
+	font-size:12px;
+	margin:10px 10px 10px 0px;
+}
+.img{
+	background-image: url('../images/saungsaji.png') no-repeat;
+	width:400px;
+	height:100px;
+	margin-left:140px;
+	margin-bottom:50px;
+}
+.footer{
+	font-family:Arial,Verdana,Helvetica, sans-serif;
+	font-size:12px;	
+	border-top: 1px solid #ddd;
+	padding-top:10px;
+	margin: 50px;
+
+}
+p a {
+  color: #2a9ccc;
+}
+p a:hover {
+  color: #1f2225;
+}
